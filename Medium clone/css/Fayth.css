@@ -1,0 +1,69 @@
+.innerContainer { display: flex; 
+    justify-content: space-around;
+    max-width: 1200px;
+     margin:0 auto;}
+
+/* .heading { font-size: 15px;
+     font-family: 'Poppins', sans-serif;} */
+
+     .header { background-color: gold;}
+
+nav { display: flex;
+     justify-content: space-between; 
+     align-items: center;
+    padding: 10px 0;
+}
+
+.divider  { border-bottom: 1px solid black;
+max-width: 100%;}
+
+.logoSection { display: flex;
+     align-items: center;}
+
+.logoText {
+      font-size: 25px;
+     margin-left: 2px;
+ }
+   
+#logo { 
+     width: 20px;
+     height: 20px;
+}
+
+.navList { display: flex;
+         align-items: center;}
+
+ .navList > li { display: flex; 
+align-items: center;
+font-size: 16px;
+font-family: poppins;
+}
+
+.navList > li + li { margin-left: 15px;}
+
+.signInButton { border: none;
+background-color: transparent;
+font-size: 16px;
+cursor: pointer;}
+
+.getStartedButton { background-color: #2b2929f7;
+border: 1px solid #2b2929f7;
+color: #fff;
+border-radius: 50px;
+padding: 5px;
+ font-size: 16px;
+cursor: pointer;}
+
+.getStartedButton:hover {background-color: black;
+border-color: black;}
+
+.showCase { display: flex;
+    height: 300px;
+justify-content: space-between;
+align-items: center;}
+h2 { font-size: 50px;}
+
+.animation { position: absolute;
+left: 1000px;}
+
+div > p {  width:300px; flex-wrap: wrap;}

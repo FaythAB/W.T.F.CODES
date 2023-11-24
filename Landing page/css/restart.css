@@ -1,0 +1,12 @@
+.brain { background-color: #f3f3f3; max-width: 100%;}
+
+.cartBut { display: flex;
+flex-direction: row; 
+ list-style: none;
+align-items: center;
+gap: 20px;}
+
+.menuLogoWrap { display: flex;  width: 1280px;
+    height: 80px;
+    /* flex-direction: row; */
+    margin:  auto 50px;}

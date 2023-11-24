@@ -1,0 +1,223 @@
+.innercontainer { display: flex;
+    width: 1280px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.menuLogoWrap { background-color: #f3f3f3; display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1280px;
+    height: 80px;
+    padding: 10px 50px; margin: 0%; border: none;
+}
+.cartBut {  display: flex;
+    align-items: center;
+    list-style: none;
+max-height: 22px;
+width: 124px;}
+
+
+   .login {border: none;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+height: 22px;
+width: 47px;}
+
+.car { height: 22px;
+width: 30px;}
+
+.cart { height: 21px;
+width: 24px;}
+.logo { height: 27px;
+width: 79px;
+position: absolute;
+left: 600px;}
+
+.menuLogo { display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.price { color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */}
+    .kudi { color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;}
+        
+
+.cartBut > li +li {  align-content: space-around;}
+
+#menu { width: 29px; height: 20.3px;}
+
+.hero { display: flex; 
+    justify-content: space-between; background-color: #F3F3F3; width: 1280px;
+    height: 752px; border: 0; margin:0}
+
+    h2 { color: #000;
+
+        font-family: Inter;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;}
+
+        .word { width: 320px;
+            color: #000;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; /* 162.5% */}
+
+            .price { color: #000;
+
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px}
+
+                .frameSix {display: inline-flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 50px;
+                     width: 320px;
+                height: 311px;}
+
+                .glasses { width: 487px;
+                    height: 244px;
+                    flex-shrink: 0;
+                position: absolute;
+            top: 211px; 
+            right:63px;
+            bottom: 297px;
+            left: 730px; }
+
+                    .producto { color: #000;
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 26px; /* 162.5% */}
+
+                        #detalles { position: absolute;
+                            top: 692px; right: 940px; bottom: 97px;
+                        left: 178px;} 
+
+                       
+                       
+                        .imageWrap { display: flex;
+                            justify-content: center;
+                            align-content: space-between; 
+                            width: 1180px;
+                            height: 1786px;
+            }
+             .category { display: inline-flex;
+                width: 224px; height: 26px;
+                            justify-content: center;
+                            align-items: flex-start;
+                            gap: 21px;}
+
+
+                .cards { display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                   justify-content:flex-end ;
+                     background-color: #F3F3F3; 
+                    width: 289px;
+                    height: 448px;
+                    flex-shrink: 0;}
+
+                    #belt { width: 252px;
+                        height: 252px;
+                        flex-shrink: 0;}
+
+                        #perfum { width: 204px;
+                            height: 204px;
+                            flex-shrink: 0;}
+
+                            #gloves { width: 204px;
+                                height: 204px;
+                                flex-shrink: 0; }
+                            #blazer { width: 219px;
+ height: 219px;
+flex-shrink: 0;}
+
+#pants {width: 130px;
+    height: 194px;
+    flex-shrink: 0;}
+
+#shoe {width: 200px;
+    height: 111px;
+    flex-shrink: 0;}
+
+    #sock {width: 136px;
+        height: 136px;
+        flex-shrink: 0;}
+
+        #spec {width: 221px;
+            height: 221px;
+            flex-shrink: 0;}
+
+            #hat {width: 178px;
+                height: 178px;
+                flex-shrink: 0;}
+
+                .cardsContainer { display: flex;
+                    justify-content: center;
+                    
+                    align-content: space-evenly;
+                    align-items: space-between;
+                    flex-wrap: wrap; 
+                    list-style: none;
+                 ; }
+
+                    .list { display: flex; 
+                        justify-content: center;
+                    align-content: space-between;
+                }
+ul li {  margin-bottom: 102px; margin-right: 74px;
+}
+                    .typo { width: 229px;
+                         color: #000;
+                        text-align: center;
+                        font-family: Inter;
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 26px; /* 118.182% */}
+
+                        .comprar {border: 1px solid #000;
+                             display: inline-flex;
+                            padding: 10px 52px;
+                            align-items: flex-start;
+                            gap: 10px;}
+
+                           .bill {color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */}
+
+.svg { display: inline-flex;
+    align-items: center;
+    gap: 6px;}
+
+    .hey { position: absolute;
+    top: 508px;
+right: 233px;
+bottom: 218px;
+left: 901px;}
+
+.basket { align-self: self-end;}

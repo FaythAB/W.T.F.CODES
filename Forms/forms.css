@@ -1,0 +1,41 @@
+html { font-size: 10px;}
+
+.myforms { display: flex;
+flex-direction: column; 
+
+justify-content: center;
+color: white;
+width: 200px;
+height: 50vh;
+background-color: #000;
+transform: translateY(50%);
+margin: auto;
+padding: 16px;
+font-size: 8px;}
+
+.formField, .formField:focus .formField:hover  { 
+    width: 100%;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 3px;
+    padding: 2px;
+font-size: 8px;
+}
+
+
+    .formField  {
+         margin-bottom: 12px;
+        }
+        .submittion { 
+            width: 100%;
+        border: none;
+        background-color:gold;
+        border-radius: 3px;
+        padding: 0.2rem;
+        font-size: 8px;
+        cursor: pointer;
+    }
+    .submittion:hover {
+        background-color: tomato;
+    }
